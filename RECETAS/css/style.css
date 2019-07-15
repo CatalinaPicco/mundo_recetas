@@ -1,0 +1,27 @@
+@import url("_reset.css");
+@import url("_normalze.css");
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+
+body {
+	background-image: url('../img/back.gif');
+}
+
+.rating {
+	color: orange;
+}
+
+.container {
+	background-color: white;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 12vw;
+    object-fit: cover;
+}
+
+#menu {
+	background-color: greenyellow!important;
+}
