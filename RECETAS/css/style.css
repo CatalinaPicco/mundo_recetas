@@ -8,6 +8,10 @@ body {
 	background-image: url('../img/back.gif');
 }
 
+.fullHeight {
+	min-height: 100vh!important;
+}
+
 .rating {
 	color: orange;
 }
@@ -17,9 +21,9 @@ body {
 }
 
 .card-img-top {
-    width: 100%;
-    height: 12vw;
-    object-fit: cover;
+	width: 100%;
+	height: 12vw;
+	object-fit: cover;
 }
 
 #menu {

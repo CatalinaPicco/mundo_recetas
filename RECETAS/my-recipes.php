@@ -1,6 +1,6 @@
 <?php
 
-$allRecipes = [
+$myRecipes = [
 	[
 	'id' => 1,
 	'title' => 'Fideos al pesto',
@@ -23,50 +23,13 @@ $allRecipes = [
 	'portions' => 5,
 	'image' => 'img/calabaza.jpg',
 	],
-	[
-	'id' => 1,
-	'title' => 'Fideos al pesto',
-	'author' => 'juanaCocina',
-	'portions' => 5,
-	'image' => 'img/pasta.jpg',
-	],
-	[
-	'id' => 2,
-	'title' => 'Pastel de papa',
-	'author' => 'juanaCocina',
-	'portions' => 5,
-	'image' => 'img/pastel-papa.jpg',
-	],
-	[
-	'id' => 3,
-	'title' => 'Calabaza rellena',
-	'author' => 'juanaCocina',
-	'portions' => 5,
-	'image' => 'img/calabaza.jpg',
-	],
-	[
-	'id' => 1,
-	'title' => 'Fideos al pesto',
-	'author' => 'juanaCocina',
-	'portions' => 3,
-	'image' => 'img/pasta.jpg',
-	],
-	[
-	'id' => 2,
-	'title' => 'Pastel de papa',
-	'author' => 'juanaCocina',
-	'portions' => 5,
-	'image' => 'img/pastel-papa.jpg',
-	],
-
-
 ];
 
 ?>
 
 <div class="row justify-content-center">
 
-	<?php foreach($allRecipes as $oneRecipe): ?>
+	<?php foreach($myRecipes as $oneRecipe): ?>
 		<div class="card p-0 m-1" style="width: 17rem;">
 			<img class="card-img-top" src="<?= $oneRecipe['image'] ?>" alt="Card image cap">
 			<div class="card-body">
