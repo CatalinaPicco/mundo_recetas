@@ -3,8 +3,8 @@ $title = 'Register';
 require_once 'head.php';
 ?>
 <body>
+  <?php require_once 'menu.php'; ?>
   <div class="container fullHeight">
-    <?php require_once 'menu.php'; ?>
     <div class="row justify-content-center mt-5">
       <?php require_once 'form-register.php' ?>
     </div>

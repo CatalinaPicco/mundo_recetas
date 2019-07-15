@@ -5,7 +5,20 @@
 @import url('/font-awesome-4.6.3/css/font-awesome.min.css');
 
 body {
-	background-image: url('../img/back.gif');
+	background: #f2f2f2;
+}
+
+.container-recipe {
+	background: #f2f2f2;
+}
+
+.home-img {
+	max-width: 500px;
+	margin-top: 10%;
+}
+
+.home-section {
+	height: 65vh;
 }
 
 .fullHeight {
@@ -26,6 +39,12 @@ body {
 	object-fit: cover;
 }
 
-#menu {
-	background-color: greenyellow!important;
+.tarjetas {
+	width: 9rem !important;
+}
+
+@media (min-width:1000px;) {
+	.tarjetas {
+		width: 17rem !important;
+	}
 }

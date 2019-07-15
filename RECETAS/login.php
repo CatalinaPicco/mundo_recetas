@@ -3,8 +3,8 @@ $title = 'Login';
 require_once 'head.php';
 ?>
 <body>
+  <?php require_once 'menu.php'; ?>
   <div class="container fullHeight">
-    <?php require_once 'menu.php'; ?>
     <div class="row justify-content-center">
       <form class="col-8 mt-5">
         <h2 class="mb-4"><?= $title; ?></h2>
